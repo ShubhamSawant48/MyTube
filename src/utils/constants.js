@@ -3,3 +3,6 @@ export const HAMBURGER_MENU_ICON =
 
 export const YOUTUBE_LOGO =
   "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png";
+
+export const USERPROFILE_ICON =
+  "https://e7.pngegg.com/pngimages/980/304/png-clipart-computer-icons-user-profile-avatar-heroes-silhouette-thumbnail.png";
