@@ -1,6 +1,6 @@
 const SideBar = () => {
   return (
-    <div className="overflow-y-auto scrollbar-hide w-[11rem] h-[629px] py-3 shadow-black shadow-lg">
+    <div className="overflow-y-auto scrollbar-hide w-[13rem] h-[629px] py-3 shadow-black shadow-lg">
       <ul className="border-gray-400 border-b-2 px-5 py-2 text-lg">
         <li>Home</li>
         <li>Shorts</li>
@@ -26,7 +26,7 @@ const SideBar = () => {
         <li>Youtube Music</li>
         <li>Youtube Kids</li>
       </ul>
-      <ul className="px-5 py-2">
+      <ul className="px-5 py-2 mb-2">
         <li>Setting</li>
         <li>Report History</li>
         <li>Help</li>
