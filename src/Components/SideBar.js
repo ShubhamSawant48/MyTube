@@ -1,5 +1,8 @@
+import { useSelector } from "react-redux";
+
 const SideBar = () => {
-  return (
+  const showMenuBar = useSelector((store) => store.app.showMenu);
+  return !showMenuBar ? null : (
     <div className="overflow-y-auto scrollbar-hide w-[13rem] h-[629px] py-3 shadow-black shadow-lg">
       <ul className="border-gray-400 border-b-2 px-5 py-2 text-lg">
         <li>Home</li>

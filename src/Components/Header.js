@@ -1,10 +1,16 @@
+import { useDispatch } from "react-redux";
 import {
   HAMBURGER_MENU_ICON,
   YOUTUBE_LOGO,
   USERPROFILE_ICON,
 } from "../utils/constants";
+import { toggleShowMenu } from "../utils/appSlice";
 
 const Header = () => {
+  const dispatch = useDispatch();
+  const handleToggleShowMenu = () => {
+    dispatch(toggleShowMenu());
+  };
   return (
     <div className="flex p-3 shadow-xl">
       <div className="flex gap-4 col-span-1 mr-[22%] ml-1">
@@ -12,6 +18,7 @@ const Header = () => {
           src={HAMBURGER_MENU_ICON}
           alt="Hamburger menu icon"
           className="h-8 rounded-sm cursor-pointer"
+          onClick={handleToggleShowMenu}
         ></img>
         <img
           src={YOUTUBE_LOGO}

@@ -16,7 +16,7 @@ const VideosList = () => {
 
   return (
     <div>
-      <div className="flex flex-wrap gap-5 px-6 w-[81rem] ml-10 mt-4 overflow-y-auto h-[33rem] scrollbar-hide">
+      <div className="flex flex-wrap gap-5 px-6 w-[81rem] mx-10 mt-4 overflow-y-auto h-[33rem] scrollbar-hide">
         {youTubeData &&
           youTubeData.map((card) => <VideoCards key={card.etag} data={card} />)}
       </div>
