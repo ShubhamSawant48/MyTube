@@ -29,6 +29,11 @@ export const BUTTONSOFMAIN = [
   "New to you",
 ];
 
-export const YOUTUBE_API_KEY =
+export const YOUTUBE_POPULAR_VIDEOS =
   "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=" +
   process.env.REACT_APP_YOUTUBE_KEY;
+
+export const YOUTUBE_TOP_COMMENTS =
+  "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=10&key=" +
+  process.env.REACT_APP_YOUTUBE_KEY +
+  "&videoId=";

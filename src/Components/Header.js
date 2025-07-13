@@ -5,12 +5,15 @@ import {
   USERPROFILE_ICON,
 } from "../utils/constants";
 import { toggleShowMenu } from "../utils/appSlice";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const dispatch = useDispatch();
+
   const handleToggleShowMenu = () => {
     dispatch(toggleShowMenu());
   };
+
   return (
     <div className="flex p-3 shadow-xl">
       <div className="flex gap-4 col-span-1 mr-[22%] ml-1">
@@ -20,11 +23,14 @@ const Header = () => {
           className="h-8 rounded-sm cursor-pointer"
           onClick={handleToggleShowMenu}
         ></img>
-        <img
-          src={YOUTUBE_LOGO}
-          alt="Youtube logo"
-          className="h-8 cursor-pointer"
-        ></img>
+        <Link to="/">
+          <img
+            src={YOUTUBE_LOGO}
+            alt="Youtube logo"
+            className="h-8 cursor-pointer"
+            onClick={handleToggleShowMenu}
+          ></img>
+        </Link>
       </div>
       <div className="flex mr-auto">
         <input
