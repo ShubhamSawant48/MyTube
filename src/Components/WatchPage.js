@@ -4,7 +4,7 @@ import TopComments from "./TopComments";
 const WatchPage = () => {
   const [searchParams] = useSearchParams();
   return (
-    <div className="my-8 ml-36">
+    <div className="my-8 ml-36 w-[860px]">
       <div>
         <iframe
           width="860"

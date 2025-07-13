@@ -42,3 +42,6 @@ export const YOUTUBE_REPLY_COMMENTS =
   "https://www.googleapis.com/youtube/v3/comments?part=snippet&key=" +
   process.env.REACT_APP_YOUTUBE_KEY +
   "&parentId=";
+
+export const YOUTUBE_SUGGESTION_API =
+  "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";

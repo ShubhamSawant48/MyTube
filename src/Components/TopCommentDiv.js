@@ -6,7 +6,7 @@ const TopCommentDiv = ({ info }) => {
 
   return (
     <div>
-      <div className="flex bg-gray-100 mb-3 rounded-lg">
+      <div className="flex bg-gray-200 mb-3 rounded-lg">
         <img
           src={authorProfileImageUrl}
           className="h-16 w-16 rounded-full p-3"

@@ -1,7 +1,6 @@
 import { YOUTUBE_REPLY_COMMENTS } from "../utils/constants";
 import { useEffect, useState } from "react";
 import CommentRepliesDiv from "./CommentRepliesDiv";
-import TopCommentDiv from "./TopCommentDiv";
 
 const CommentReplies = ({ data }) => {
   const [topCommentsData, setTopCommentsData] = useState();
