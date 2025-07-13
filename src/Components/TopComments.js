@@ -1,6 +1,7 @@
 import { useSearchParams } from "react-router-dom";
 import { YOUTUBE_TOP_COMMENTS } from "../utils/constants";
 import { useEffect, useState } from "react";
+import TopCommentDiv from "./TopCommentDiv";
 
 const TopComments = () => {
   const [searchParams] = useSearchParams();
@@ -19,17 +20,10 @@ const TopComments = () => {
 
   return (
     <div className="mt-3">
-      <h1 className="font-bold text-2xl">20 Comments:</h1>
       {topCommentsData &&
-        topCommentsData.map((data) => {
-          <div>
-            <img
-              src={data.snippet.topLevelComment.snippet.authorProfileImageUrl}
-              className="h- w-8 flex-row"
-            ></img>
-            ;
-          </div>;
-        })}
+        topCommentsData.map((data) => (
+          <TopCommentDiv key={data.id} info={data} />
+        ))}
     </div>
   );
 };

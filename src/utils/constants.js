@@ -37,3 +37,8 @@ export const YOUTUBE_TOP_COMMENTS =
   "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&maxResults=10&key=" +
   process.env.REACT_APP_YOUTUBE_KEY +
   "&videoId=";
+
+export const YOUTUBE_REPLY_COMMENTS =
+  "https://www.googleapis.com/youtube/v3/comments?part=snippet&key=" +
+  process.env.REACT_APP_YOUTUBE_KEY +
+  "&parentId=";

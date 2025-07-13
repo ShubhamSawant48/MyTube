@@ -22,6 +22,7 @@ const WatchPage = () => {
           allowFullScreen
         ></iframe>
       </div>
+      <h1 className="font-bold text-2xl mt-3">10 Comments:</h1>
       <TopComments />
     </div>
   );
