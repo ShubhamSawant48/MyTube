@@ -45,3 +45,6 @@ export const YOUTUBE_REPLY_COMMENTS =
 
 export const YOUTUBE_SUGGESTION_API =
   "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+
+export const LIVECHAT_PROFILE_PHOTO =
+  "https://i.pinimg.com/736x/6d/1e/bf/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg";
