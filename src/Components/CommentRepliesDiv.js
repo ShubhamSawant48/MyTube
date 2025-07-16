@@ -1,3 +1,5 @@
+import { LIVECHAT_PROFILE_PHOTO } from "../utils/constants";
+
 const CommentRepliesDiv = ({ info }) => {
   const { authorProfileImageUrl, authorDisplayName, textOriginal } =
     info.snippet;

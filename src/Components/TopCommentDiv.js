@@ -1,3 +1,4 @@
+import { LIVECHAT_PROFILE_PHOTO } from "../utils/constants";
 import CommentReplies from "./CommentReplies";
 
 const TopCommentDiv = ({ info }) => {

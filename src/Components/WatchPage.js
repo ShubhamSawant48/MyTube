@@ -27,7 +27,7 @@ const WatchPage = () => {
         <h1 className="font-bold text-2xl mt-3">10 Comments:</h1>
         <TopComments />
       </div>
-      <div>
+      <div className="w-[370px]">
         <LiveChat />
       </div>
     </div>

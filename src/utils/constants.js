@@ -48,3 +48,6 @@ export const YOUTUBE_SUGGESTION_API =
 
 export const LIVECHAT_PROFILE_PHOTO =
   "https://i.pinimg.com/736x/6d/1e/bf/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg";
+
+export const SEND_ICON =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1v0jrV_x4un0y3T36nyVRHKwNSjuHg2oIiQ&s";
